@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+.ipynb_checkpoints/
+*.log
+emissions.csv
+.codecarbon.config
+data/*.csv
+.DS_Store
