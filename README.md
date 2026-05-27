@@ -1,7 +1,7 @@
 # 🌍 European Air Quality Forecasting System
 
 > **AI-powered PM2.5 prediction for major European cities — aligned with the EU Green Deal and Zero Pollution Action Plan.**
-
+![Dashboard](screenshots/dashboard.png)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org)
 [![XGBoost](https://img.shields.io/badge/XGBoost-2.0+-orange.svg)](https://xgboost.ai)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
@@ -28,7 +28,18 @@ This project builds an end-to-end machine learning system that **forecasts PM2.5
                                               │  (Green AI) │
                                               └─────────────┘
 ```
+## 🖼️ Screenshots
 
+### Interactive Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Historical Patterns
+Hourly and weekly PM2.5 patterns reveal clear rush-hour peaks and weekend dips.
+![Patterns](screenshots/patterns.png)
+
+### Model Insights
+Top features driving the predictions — lag values and rolling statistics dominate.
+![Features](screenshots/features.png)
 ## 📊 Results
 
 On 365 days of hourly data (Berlin) with a 24-hour prediction horizon:
